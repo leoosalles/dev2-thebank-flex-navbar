@@ -1,0 +1,39 @@
+@media (max-width: 735px) {
+    header.menu-container {
+        flex-direction: column;
+    }
+
+    a.logo-link {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 580px) {
+    a.logo-link {
+        margin-bottom: 0;
+    }
+
+    h1.logo-title {
+        font-size: 4rem;
+    }
+
+    ul.menu {
+        margin-top: 10rem;
+        flex-direction: column;
+        gap: 1.6rem
+    }
+
+    ul.menu li {
+        padding: 1.7rem 0;
+    }
+
+    ul.menu li a {
+        font-size: 4rem;
+        padding: 1.7rem 4rem;
+    }
+
+    button.button-sign-up {
+        font-size: 1.8rem;
+        padding: 1.8rem 2.6rem;
+    }
+}
