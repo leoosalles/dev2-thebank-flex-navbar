@@ -20,11 +20,7 @@
     ul.menu {
         margin-top: 10rem;
         flex-direction: column;
-        gap: 1.6rem
-    }
-
-    ul.menu li {
-        padding: 1.7rem 0;
+        gap: 5rem
     }
 
     ul.menu li a {
@@ -35,5 +31,6 @@
     button.button-sign-up {
         font-size: 1.8rem;
         padding: 1.8rem 2.6rem;
+        font-weight: 300;
     }
 }

@@ -20,12 +20,12 @@ header.menu-container {
 a.logo-link {
     display: flex;
     align-items: center;
+    gap: 0.55rem;
 }
 
 h1.logo-title {
     font-size: 2rem;
     font-weight: 800;
-    margin-left: 5.5px;
 }
 
 ul.menu {
@@ -47,34 +47,6 @@ button.button-sign-up {
     padding: 11px 20px;
 
 }
-
-/* header.menu-container h2.logo-title {
-    position: absolute;
-    height: 24px;
-    width: 80px;
-    top: 55px;
-    left: 95px;
-    font-size: 20px;
-    line-height: 23.5px;
-    font-weight: 800;
-} */
-
-/* ul.menu {
-    display: flex;
-    position: relative;
-    top: 59px;
-    right: 41.41px;
-    width: 450px;
-    justify-content: space-between;
-} */
-
-/* button.button-sign-up {
-    border-radius: 2.5px;
-    color: #fff;
-    background-color: #5BC241;
-    border: none;
-    box-shadow: 0 0 0 10px #5BC241;
-} */
 
 a.menu-link:hover {
     color: #fff;
